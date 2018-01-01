@@ -1,0 +1,20 @@
+{application, cowboy_riak,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { cowboy_riak_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    riakc,
+    jiffy,
+    uuid 
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

@@ -1,0 +1,6 @@
+-sname cowboy_riak
+
+-setcookie cowboy_riak_cookie
+
++K true
++A30
